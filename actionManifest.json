@@ -1,19 +1,19 @@
 {
     "schemaVersion": 1,
     "tag": "tetris-teams-app",
-    "id": "<packageId>",
+    "id": "32",
     "name": "Tetris Tournament",
     "description": "Host a tournament of Tetris game",
     "showLoadingIndicator": true,
     "developer": {
-        "name": "<name>",
-        "websiteUrl": "<websiteUrl>",
-        "privacyUrl": "<privacyUrl>",
-        "termsOfUseUrl": "<termsOfUseUrl>"
+        "name": "NguyenThanhLong",
+        "websiteUrl": "http://localhost:9000/",
+        "privacyUrl": "http://localhost:9000/",
+        "termsOfUseUrl": "http://localhost:9000/"
     },
     "icon": "images/appIcon.png",
     "actionModel": "actionModel.json",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "views": {
         "CardView": {
             "sourceLocation": "cardView.json"
@@ -21,14 +21,6 @@
         "LaunchView": {
             "sourceLocation": "CreateView.html",
             "header": "Create new tournament"
-        },
-        "ResponseView": {
-            "sourceLocation": "ResponseView.html",
-            "header": "Play Tetris"
-        },
-        "SummaryView": {
-            "sourceLocation": "SummaryView.html",
-            "header": "Summary View"
         }
     },
     "localizationInfo": {
